@@ -1,0 +1,146 @@
+<!Doctype html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Flyjeje</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/hotel.js"></script>
+        <link rel="stylesheet" href="/prototype/css/hotel.css">
+        <link rel="stylesheet" href="/prototype/css/header.css">
+    </head>
+    <body>
+        <!-- this is the header of the webpage and this header will contain the logo
+        and the options to login and register to the company.-->
+        
+        <header class="header">
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="/prototype/Html/index.html">FLY JEJE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/prototype/Html/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/prototype/Html/flight.html">Flight</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/prototype/Html/hotels.html">Hotel</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Join Us
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/prototype/Html/register.html">Sign Up</a></li>
+                        <li><a class="dropdown-item" href="/prototype/Html/login.html">Sign in</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="https://www.oanda.com/currency-converter/en/?from=EUR&to=USD&amount=1">Currency rate</a></li>
+                      </ul>
+                    </li>
+                   
+                  </ul>
+                 
+                </div>
+              </div>
+            </nav>
+  
+      </header>
+
+        <main>
+          <form action="">
+
+  
+            <div class="form-group">
+              <h2 class="heading">Bookings Details</h2>
+              <div class="grid">
+              <div class="col-1-4 col-1-4-sm">
+                <div class="controls">
+                  <input type="date" id="arrive" class="floatLabel" name="arrive" >
+                  <label for="arrive" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Arrive</label>
+                </div>      
+              </div>
+              <div class="col-1-4 col-1-4-sm">
+                <div class="controls">
+                  <input type="date" id="depart" class="floatLabel"  name="depart">
+                  <label for="depart" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Depart</label>
+                </div>      
+              </div>
+                </div>
+
+              <div class="grid">
+              <div class="col-1-3 col-1-3-sm">
+                <div class="controls">
+                  <i class="fa fa-sort"></i>
+                  <select class="floatLabel">
+                    <option value="blank"></option>
+                    <option value="1">1</option>
+                    <option value="2" selected>2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label for="fruit"><i class="fa fa-male"></i>&nbsp;&nbsp;People</label>
+                </div>      
+              </div>
+              <div class="col-1-3 col-1-3-sm">
+              <div class="controls">
+                <i class="fa fa-sort"></i>
+                <select class="floatLabel">
+                  <option value="blank"></option>
+                  <option value="deluxe" selected>With Bathroom</option>
+                  <option value="room">Without Bathroom</option>
+                </select>
+                <label for="fruit">Room</label>
+               </div>     
+              </div>
+          
+              <div class="col-1-3 col-1-3-sm">
+              <div class="controls">
+                <i class="fa fa-sort"></i>
+                <select class="floatLabel">
+                  <option value="blank"></option>
+                  <option value="single-bed">Single Bed</option>
+                  <option value="double-bed" selected>Double Bed</option>
+                </select>
+                <label for="fruit">Bedding</label>
+               </div>     
+              </div>    
+              </div>
+                <div class="grid">
+                  <p class="info-text">Please describe your needs e.g. Extra beds, children's cots</p>
+                  <br>
+                  <div class="controls">
+                    <textarea name="comments" class="floatLabel" id="comments"></textarea>
+                    <label for="comments">Comments</label>
+                    </div>
+                      <button type="submit" value="Submit" class="button">Submit</button>
+                </div>  
+            </div>
+  
+          </form>
+        </main>
+
+        <footer>
+          <p>Fly JeJe <br> This website is the trademark of alpha group, computer science department of the robert gordon University<br>
+          in aberdeen scotland. <br>
+          (c) Flyjeje - all rights reserved
+      </footer>
+
+
+    </body>
+</html>

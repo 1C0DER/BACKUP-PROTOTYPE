@@ -1,0 +1,104 @@
+@import url('http://googleapis.com/css2?family=Pacifico&display=swap');
+
+html, body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: hidden;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.dropdown-menu{
+    background-color: rgb(74, 93, 177);
+}
+
+a:hover{
+    color: rgb(74, 93, 177);
+}
+ul{
+    list-style: none;
+}
+
+.navbar{
+    background-color: rgb(74, 93, 177);
+    padding: 3rem 2rem;
+    height: 0rem;
+    min-height: 12vh;
+}
+
+.navbar .navbar-brand a {
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    font-family:cursive;
+    font-size: 1.5rem;
+    color: rgb(74, 93, 177);
+}
+
+.navbar-toggler{
+    background:rgb(74, 93, 177);
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: rgb(74, 93, 177);
+}
+.navbar-toggler span + span {
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+.navbar-toggler span + span +span {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 2rem 1.2rem;
+    font-size: 1.4rem;
+    position: relative;   
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    border-top: 4px solid rgb(74, 93, 177);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:active {
+    border-top: 4px solid rgb(74, 93, 177);
+    color: rgb(74, 93, 177);
+}
+
+.navbar-nav .btn{
+    background-color: rgb(74, 93, 177);
+    color: black;
+    border-radius: 0;
+    padding: 1rem 1.2rem;
+    font-size: 1.2rem;
+    margin-top: 1px;
+}
+
+.navbar-nav .btn:hover{
+    background-color: rgb(74, 93, 177);
+}
+
+.container-fluid {
+    background-color: white;
+    width: 100%;
+}

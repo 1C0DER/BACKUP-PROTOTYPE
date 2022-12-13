@@ -1,0 +1,133 @@
+@import "compass/css3";
+@import "compass/reset";
+
+body{
+    background-size: cover;
+    background: url(/prototype/images/368326.jpg);
+    background-position: center;
+}
+
+.radio-btn{
+    margin: 0 10px;
+}
+
+.radio-btn .btn{
+    margin: 0px -3px 4px 0px;
+}
+
+.radio-btn.btn:after{
+    content:'';
+    height: 15px;
+    width: 15px;
+    top: -2px ;
+    left: -1px;
+    background-color:white;
+    position: relative;
+    display: inline-block;
+    visibility: visible;
+    border-radius: 50%;
+}
+
+.radio-btn.btn:checked::after{
+    content: '';
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.radio-btn span{
+    
+    margin: 5px 5px 5px;
+    font-size: 15px;
+    color: white;
+} 
+
+.booking-form-box {
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid grey;
+    margin: 10px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #d3765e, #2b5caa);
+    box-shadow: 2px 2px 4px gray;
+}
+
+.booking-form-box form{
+    width: 100%;
+}
+
+/* changing the input to capital letters since iata codes are always meant to be entered in capital letters*/
+#flying-from{
+    text-transform: uppercase;
+}
+
+#flying-to{
+    text-transform: uppercase;
+}
+
+.booking-form-box label{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+input::placeholder{
+    color: grey !important;
+}
+
+.booking-form-box form .input-grp{
+    align-items: center;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+
+/* .form-control{
+    font: size 12px !important;
+    border-radius:0 !important;
+    color: grey !important;
+    background: transparent !important;
+    box-shadow: none !important;
+} */
+
+
+
+.select-date::-webkit-calender-picker-indicator{
+    background: transparent !important;
+}
+
+.booking-form-box form .input-grp.custom-select{
+    color: blue ;
+    position: relative;
+    font-size: 12px !important;
+    border: 2px solid blue !important;
+    width: 100%;
+    height: auto;
+}
+
+.flight{
+    width: 70% !important;
+    padding: 5px !important;
+    font-size: 12px;
+    border: 1px solid grey !important;
+    background:grey !important;
+    
+}
+.flight:hover{
+    background: blue !important;
+    color: green !important;
+    transition: 0.5s;
+
+}
+
+#addFlight{
+    margin-top: 5px;
+}
+/* The styles below are for the css properties of the footer page */
+footer{
+    background: linear-gradient(-135deg, #a9c2d5, #0a2248);
+    font-size: 8px;
+    text-align: center;
+    margin-top: 30px;
+}
