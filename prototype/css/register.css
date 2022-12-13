@@ -111,6 +111,31 @@ form .button input:hover{
     background: linear-gradient(-135deg, #c3d8e8, #2b5caa);
 }
 
+.footercontainer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+}
+
+.footerheader{
+    font-size: 20px;
+    font-family: cursive;
+    color:black;
+}
+.footerpage{
+    font-size: 15px;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+}
+
 @media (max-width:584px) {
     .container{
         max-width: 100%;

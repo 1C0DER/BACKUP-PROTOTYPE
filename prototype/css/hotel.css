@@ -173,10 +173,27 @@ input[type="date" i] {
 } */
 
 /* The styles below are for the css properties of the footer page */
-footer{
-    background: linear-gradient(-135deg, #a9c2d5, #0a2248);
-    font-size: 8px;
-    text-align: center;
-    color: white;
+.footercontainer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+}
 
+.footerheader{
+    font-size: 20px;
+    font-family: cursive;
+    color:black;
+}
+.footerpage{
+    font-size: 15px;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
 }
